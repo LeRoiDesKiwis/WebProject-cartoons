@@ -1,0 +1,64 @@
+<!ELEMENT cartoon (informations, img, description, characters, seasons)>
+<!ELEMENT informations (name, author, channel, first_diffusion, last_diffusion?)>
+
+<!ENTITY % id "id ID #IMPLIED">
+
+<!ENTITY % date
+        "year CDATA #REQUIRED
+        month CDATA #IMPLIED
+        day CDATA #IMPLIED">
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT channel (#PCDATA)>
+<!ELEMENT first_diffusion EMPTY>
+<!ELEMENT last_diffusion EMPTY>
+
+<!ELEMENT seasons (season+)>
+<!ELEMENT season EMPTY>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT characters (character+)>
+<!ELEMENT vo (#PCDATA)>
+<!ELEMENT vf (#PCDATA)>
+<!ELEMENT dub (vo, vf?)>
+<!ELEMENT character (name, img, dub)>
+
+<!ELEMENT img EMPTY>
+
+<!ATTLIST name %id;>
+<!ATTLIST channel %id;>
+<!ATTLIST seasons %id;>
+<!ATTLIST season %id;>
+<!ATTLIST description %id;>
+<!ATTLIST characters %id;>
+<!ATTLIST character %id;>
+
+<!ATTLIST img
+        %id;
+        href CDATA #REQUIRED
+        src CDATA #REQUIRED>
+
+<!ATTLIST season
+        %id;
+        season_number CDATA #REQUIRED
+        number_of_episode CDATA #REQUIRED
+        in_progress (yes|no) "no">
+
+<!ATTLIST author
+        %id;>
+
+<!ATTLIST first_diffusion
+        %id;
+        %date;>
+
+<!ATTLIST last_diffusion
+        %id;
+        %date;>
+
+<!ATTLIST vf
+        %id;>
+
+<!ATTLIST vo
+        %id;>

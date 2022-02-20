@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartoon SYSTEM "cartoon.dtd">
+<cartoon>
+    <informations>
+        <name>Le monde incroyable de Gumball</name>
+        <author>Ben Bocquelet</author>
+        <channel>Cartoon Network</channel>
+        <first_diffusion year="2011" month="6" day="12"/>
+        <last_diffusion year="2019" month="10" day="20"/>
+    </informations>
+    <img href="../Images/tawog.png" src="https://www.primevideo.com/detail/Amazing-World-of-Gumball/0GDR6GRJHLPDYJYXAEBOBMN7GL"/>
+    <description>
+        La série raconte la vie de Gumball Watterson, un chat bleu, âgé de 12 ans, et de Darwin,
+        son poisson rouge acheté par ses parents qui deviendra son meilleur ami.
+        Ils sont élèves dans la ville fictive d'Elmore. Ils se retrouvent souvent dans différentes situations surréalistes.
+    </description>
+    <characters>
+        <character>
+            <name>Gumball Watterson</name>
+            <img href="../Images/gumball.png" src="https://theamazingworldofgumball.fandom.com/wiki/Gumball_Watterson"/>
+            <dub>
+                <vo>Jacob Hopkins</vo>
+                <vf>Arthur Dubois</vf>
+            </dub>
+        </character>
+        <character>
+            <name>Darwin Watterson</name>
+            <img href="../Images/darwin.png" src="https://theamazingworldofgumball.fandom.com/wiki/Darwin_Watterson"/>
+            <dub>
+                <vo>Kwesi Boakye</vo>
+                <vf>Tim Belasri</vf>
+            </dub>
+        </character>
+    </characters>
+    <seasons>
+        <season number_of_episode="36" season_number="1"/>
+        <season number_of_episode="40" season_number="2"/>
+        <season number_of_episode="40" season_number="3"/>
+        <season number_of_episode="40" season_number="4"/>
+        <season number_of_episode="40" season_number="5"/>
+        <season number_of_episode="44" season_number="6"/>
+    </seasons>
+</cartoon>

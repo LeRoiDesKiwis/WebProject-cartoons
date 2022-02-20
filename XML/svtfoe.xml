@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartoon SYSTEM "cartoon.dtd">
+<cartoon>
+    <informations>
+        <name>Star Vs The Forces Of Evil</name>
+        <author>Daron Necfy</author>
+        <channel>Disney Channel</channel>
+        <first_diffusion year="2015" month="1" day="18"/>
+        <last_diffusion year="2019" month="5" day="19"/>
+    </informations>
+    <img href="../Images/svtfoe.jpg" src="https://www.seriebox.com/serie/star-vs-forces-of-evil.html"/>
+    <description>Star Butterfly est la princesse d'un royaume dans une autre dimension nommé Miouni.
+        Elle fut envoyée sur Terre après avoir accidentellement ravagé son domicile avec sa nouvelle baguette magique,
+        qu'elle ne maîtrise pas encore très bien. Arrivant donc dans la famille Diaz, elle se fait un nouveau meilleur ami du nom de Marco.
+        Les deux héros essaieront alors d'avoir une vie normale, et en parallèle,
+        de combattre le maléfique Ludo à travers les dimensions afin que la baguette de Star ne tombe pas entre ses mains.</description>
+    <characters>
+        <character>
+            <name>Star Butterfly</name>
+            <img href="" src=""/>
+            <dub>
+                <vo>Eden Sher</vo>
+                <vf>Sophie Frison</vf>
+            </dub>
+        </character>
+        <character>
+            <name>Marco Diaz</name>
+            <img href="../Images/Marco_Diaz.png" src="https://disney.fandom.com/wiki/Marco_Diaz"/>
+            <dub>
+                <vo>Adam McArthur</vo>
+                <vf>Pierre Le Bec</vf>
+            </dub>
+        </character>
+    </characters>
+    <seasons>
+        <season season_number="1" number_of_episode="24"/>
+        <season season_number="2" number_of_episode="41"/>
+        <season season_number="3" number_of_episode="38"/>
+        <season season_number="4" number_of_episode="37"/>
+    </seasons>
+</cartoon>

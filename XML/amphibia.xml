@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartoon SYSTEM "cartoon.dtd">
+<cartoon>
+    <informations>
+        <name>Amphibia</name>
+        <author>Matt Braly</author>
+        <channel>Disney Channel</channel>
+        <first_diffusion year="2019"/>
+        <last_diffusion year=""/>
+    </informations>
+    <img href="../Images/amphibia.jpg" src="https://wikidoublage.fandom.com/fr/wiki/Amphibia"/>
+    <description>La série raconte les aventures d'une jeune fille américano-thaïlandaise de 13 ans nommée Anne Boonchuy.
+        Après avoir volé une mystérieuse boîte à musique, elle est transportée par magie à Amphibia, un marais sauvage peuplé de grenouilles parlantes.
+        Elle rencontre bientôt et se lie d'amitié avec une jeune grenouille aventureuse nommée Sprig Plantar,
+        qui la guidera pour devenir un véritable héros tout en découvrant la première véritable amitié de sa vie</description>
+    <characters>
+        <character>
+            <name>Anne Boonchuy</name>
+            <img href="../Images/Anne_Boonchuy.png" src="https://amphibia.fandom.com/wiki/Anne_Boonchuy"/>
+            <dub>
+                <vo>Brenda Song</vo>
+                <vf>Julia Khaye</vf>
+            </dub>
+        </character>
+        <character>
+            <name>Sprig Plantar</name>
+            <img href="../Images/Sprig_Plantar.png" src="https://amphibia.fandom.com/wiki/Sprig_Plantar"/>
+            <dub>
+                <vo>Justin Felbinger</vo>
+                <vf>Maxime Donnay</vf>
+            </dub>
+        </character>
+        <character>
+            <name>Marcy Wu</name>
+            <img href="../Images/Marcy_Wu.png" src="https://amphibia.fandom.com/wiki/Marcy_Wu"/>
+            <dub>
+                <vo>Haley Tju</vo>
+                <vf>Cathy Boquet</vf>
+            </dub>
+        </character>
+    </characters>
+    <seasons>
+        <season season_number="1" number_of_episode="39"/>
+        <season season_number="2" number_of_episode="36"/>
+        <season season_number="3" number_of_episode="19" in_progress="yes"/>
+    </seasons>
+</cartoon>

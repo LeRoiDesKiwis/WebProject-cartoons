@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(232, 208, 171);
+}
+
+h1 {
+    text-align: center;
+}
+
+div#cartoons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.cartoon {
+    margin: 15px;
+}
+
+div.cartoon img {
+    width: 225px;
+    opacity: 60%;
+    transition: width 1s, opacity 1s;
+}
+
+p {
+    font-family : "Arial", sans-serif;
+    text-align: center;
+}
+
+div.cartoon > p {
+    font-size: 18px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+div.cartoon img:hover{
+    width: 250px;
+    opacity: 100%;
+}
+
+a#contact {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
