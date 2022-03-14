@@ -1,0 +1,20 @@
+body {
+    background-color: #aae2fa;
+}
+
+/* les balises div qui ont "marcy" comme id */
+div#gumball {
+    background-color: #8c97de;
+    border-color: #384493;
+}
+
+/* les balises div qui ont "sprig" comme id */
+div#darwin {
+    background-color: #f59b75;
+    border-color: #944d1b;
+}
+
+div#left, div#right {
+    background-color: #66b7c9;
+    border-color: #005472;
+}

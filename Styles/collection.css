@@ -1,24 +1,110 @@
-* {
-    text-align: center;
-}
-
-body > img {
-    width: 10%;
-}
-
 body {
-    background-color: #aafac5;
+    display: flex;
 }
 
-h1 {
-    text-decoration: underline;
+/* les div qui ont "left" comme id*/
+
+div#left {
+    float: left;
+    width: 40%;
+    border: 5px solid;
+    border-radius: 5px;
+    margin-right: 1%;
 }
 
-p {
-    font-size: 20px;
+/* les div qui ont "right" comme id*/
+
+div#right{
+    float: right;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* les div qui ont "left" comme class*/
+
+div.row {
+    display: table;
+    clear: both;
+    border-radius: 5px;
+    border: 5px solid
+}
+
+/* les balises span*/
+
+span {
+    font-family: "Arial", sans-serif;
+    font-size: 17px;
+    margin: 20px;
+    display: table;
+}
+
+/* les balises span et img*/
+
+span, img {
+    margin-left: 10px;
+}
+
+/* les balises h1, span et p*/
+
+h1, span, p {
     font-family: "Arial", sans-serif;
 }
 
-p#description {
-    margin: 30px 400px;
+/* les balises h1 qui ont "name" comme id */
+
+h1#name {
+    text-decoration: underline;
+    text-align: center;
+    text-size: 20px;
+}
+
+/* les balises h1 qui ont "name" comme id */
+
+span#name {
+    border: 10px ridge #808080;
+    border-radius: 15px;
+}
+
+/* les balises img enfants de div qui ont "left" comme id */
+div#left > img {
+    width: 30%;
+}
+
+/* les balises img descendants de div qui ont "right" comme id */
+div#right img {
+    width: 50%;
+}
+
+/* les balises p enfants de div qui ont "character" comme class */
+div.character > p {
+    text-align: center;
+    align-self: center;
+}
+
+/* les balises img enfants de div qui ont "character" comme class */
+div.character > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* les balises div qui ont "character" comme classe */
+div.character {
+    border: 5px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 10px;
+    padding: 1px;
+}
+
+/* derrière l'élément span qui est adjacent à la balise h1 qui a comme id name */
+h1#name + span::before {
+    content: "** "
+}
+
+/* devant l'élément span qui est adjacent à la balise h1 qui a comme id name */
+h1#name + span::after {
+    content: " **"
 }

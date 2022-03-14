@@ -1,0 +1,20 @@
+body {
+    background-color: #faaaf3;
+}
+
+/* les balises div qui ont "marcy" comme id */
+div#star {
+    background-color: #dbde8c;
+    border-color: #938438;
+}
+
+/* les balises div qui ont "sprig" comme id */
+div#marco {
+    background-color: #f57575;
+    border-color: #941b1b;
+}
+
+div#left, div#right {
+    background-color: #c966b5;
+    border-color: #5d0072;
+}

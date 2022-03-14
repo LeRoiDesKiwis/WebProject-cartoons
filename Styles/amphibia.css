@@ -1,0 +1,26 @@
+body {
+    background-color: #aafac5;
+}
+
+/* les balises div qui ont "character" comme classe */
+div#anne {
+    background-color: #dea98c;
+    border-color: #935838;
+}
+
+/* les balises div qui ont "marcy" comme id */
+div#marcy {
+    background-color: #8c97de;
+    border-color: #384493;
+}
+
+/* les balises div qui ont "sprig" comme id */
+div#sprig {
+    background-color: #f5758e;
+    border-color: #941b25;
+}
+
+div#left, div#right {
+    background-color: #66c98e;
+    border-color: #00722d;
+}

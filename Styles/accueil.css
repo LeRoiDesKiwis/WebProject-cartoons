@@ -18,8 +18,8 @@ div.cartoon {
 
 div.cartoon img {
     width: 225px;
-    opacity: 60%;
-    transition: width 1s, opacity 1s;
+    opacity: 50%;
+    transition: width 0.75s, opacity 2s;
 }
 
 p {
@@ -31,7 +31,6 @@ div.cartoon > p {
     font-size: 18px;
     width: 200px;
     margin: 10px;
-
 }
 
 div.cartoon img:hover{
