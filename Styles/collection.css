@@ -16,7 +16,7 @@ div#left {
 
 div#right{
     float: right;
-    width: 55%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,7 @@ div#right{
 div.row {
     display: table;
     clear: both;
+    flex-wrap: wrap;
     border-radius: 5px;
     border: 5px solid
 }
