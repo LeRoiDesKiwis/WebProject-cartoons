@@ -3,13 +3,13 @@ body {
 }
 
 /* les balises div qui ont "marcy" comme id */
-div#star {
+div[id="star"] {
     background-color: #dbde8c;
     border-color: #938438;
 }
 
 /* les balises div qui ont "sprig" comme id */
-div#marco {
+div[id="marco"] {
     background-color: #f57575;
     border-color: #941b1b;
 }

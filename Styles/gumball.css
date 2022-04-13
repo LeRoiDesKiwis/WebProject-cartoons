@@ -3,13 +3,13 @@ body {
 }
 
 /* les balises div qui ont "marcy" comme id */
-div#gumball {
+div[id="gumball"] {
     background-color: #8c97de;
     border-color: #384493;
 }
 
 /* les balises div qui ont "sprig" comme id */
-div#darwin {
+div[id="darwin"] {
     background-color: #f59b75;
     border-color: #944d1b;
 }

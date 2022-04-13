@@ -1,16 +1,16 @@
-p, span {
-    font-size: 20px;
+p.name, p, span {
+    font-size: 30px;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p, span, h1 {
     font-family: "Lucida Sans", sans-serif;
 }
 
-div {
+body, div#left, div#right, div.character {
     border-color: black;
     background-color: white;
 }
